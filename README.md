@@ -23,9 +23,12 @@ Capture all your opponent's pieces.
   Board (squares)
   Win
   Notation
+  
+ ![Class Diagram](https://user-images.githubusercontent.com/44181657/152683299-8ae22e63-bd90-490d-8b1f-36f837138a60.png)
 
-  		
-		
+
+ 
+
 		
 		
 
