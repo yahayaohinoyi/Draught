@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <vector>
-#include "position.h"
+//#include "position.h"
 
 class Position;
 
@@ -16,14 +16,14 @@ namespace Draught
     class Piece
     {
         public:
-            enum PieceType
+            enum class PieceType
             {
                 KING, PAWN
             };
         private:
             const std::string pieceId;
-            Position pos;
-//            std::vector<Position> moves;
+            Position* pos;
+            std::vector<Position> moves;
             PieceType type;
         };
 }

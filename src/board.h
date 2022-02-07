@@ -17,7 +17,7 @@ namespace Draught
     private:
         std::string id;
         unsigned int numSquares;
-//        std::map<Position, Piece> pos;
+        std::map<Position, Piece> pos;
     };
 }
 

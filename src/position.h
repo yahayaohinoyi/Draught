@@ -8,15 +8,13 @@
 #include <iostream>
 #include "piece.h"
 
-class Piece;
-
 namespace Draught
 {
     class Position
     {
     private:
         const std::string pos;
-//        Piece p;
+        Piece p;
     };
 }
 
