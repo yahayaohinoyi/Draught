@@ -1,6 +1,22 @@
 # ninja log v5
 0	1932	1644154887048899023	CMakeFiles/Draught.dir/main.cpp.o	16d930ad870dba32
 3	788	1644154926742771575	CMakeFiles/Draught.dir/src/test.cpp.o	d120b8dc9fa140fc
-788	864	1644154926818865328	Draught	6d8fc95b6a9f549b
+1730	1862	1644210690707857907	Draught	76c4391c59ab53c4
+4	1729	1644210690566231571	CMakeFiles/Draught.dir/src/board.cpp.o	ad653a8bc9e3325b
 11	1113	1644154955387392404	CMakeFiles/Draught.dir/src/main.cpp.o	f20241d3a9d112e0
-1113	1230	1644154955508842695	Draught	d6254c9b4ee6090e
+2	1349	1644212180821600065	CMakeFiles/Draught.dir/src/position.cpp.o	e0650fd2f95ab3bc
+5	1351	1644212180821599985	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
+2	1360	1644212180838798074	CMakeFiles/Draught.dir/src/board.cpp.o	ad653a8bc9e3325b
+1360	1545	1644212181020979726	Draught	a2228a94f4f7f66e
+11	1737	1644212267113825798	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
+43	2089	1644212827030592632	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
+9	2356	1644212926382462844	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
+13	1988	1644212977578254739	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
+12	2000	1644212977595441164	CMakeFiles/Draught.dir/src/position.cpp.o	e0650fd2f95ab3bc
+11	2048	1644212977646842291	CMakeFiles/Draught.dir/src/board.cpp.o	ad653a8bc9e3325b
+2048	2177	1644212977775393983	Draught	a2228a94f4f7f66e
+10	2844	1644213516843205010	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
+8	2864	1644213516854076780	CMakeFiles/Draught.dir/src/position.cpp.o	e0650fd2f95ab3bc
+6	2914	1644213516916655884	CMakeFiles/Draught.dir/src/board.cpp.o	ad653a8bc9e3325b
+2914	3056	1644213517054171175	Draught	a2228a94f4f7f66e
+7	2507	1644213529354300353	CMakeFiles/Draught.dir/src/piece.cpp.o	85f60bf659d8a683
