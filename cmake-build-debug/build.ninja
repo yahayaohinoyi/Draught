@@ -78,8 +78,20 @@ build CMakeFiles/Draught.dir/src/main.cpp.o: CXX_COMPILER__Draught_Debug /Users/
   OBJECT_DIR = CMakeFiles/Draught.dir
   OBJECT_FILE_DIR = CMakeFiles/Draught.dir/src
 
-build CMakeFiles/Draught.dir/src/test.cpp.o: CXX_COMPILER__Draught_Debug /Users/mac/CLionProjects/Draught/src/test.cpp || cmake_object_order_depends_target_Draught
-  DEP_FILE = CMakeFiles/Draught.dir/src/test.cpp.o.d
+build CMakeFiles/Draught.dir/src/board.cpp.o: CXX_COMPILER__Draught_Debug /Users/mac/CLionProjects/Draught/src/board.cpp || cmake_object_order_depends_target_Draught
+  DEP_FILE = CMakeFiles/Draught.dir/src/board.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Draught.dir
+  OBJECT_FILE_DIR = CMakeFiles/Draught.dir/src
+
+build CMakeFiles/Draught.dir/src/position.cpp.o: CXX_COMPILER__Draught_Debug /Users/mac/CLionProjects/Draught/src/position.cpp || cmake_object_order_depends_target_Draught
+  DEP_FILE = CMakeFiles/Draught.dir/src/position.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Draught.dir
+  OBJECT_FILE_DIR = CMakeFiles/Draught.dir/src
+
+build CMakeFiles/Draught.dir/src/piece.cpp.o: CXX_COMPILER__Draught_Debug /Users/mac/CLionProjects/Draught/src/piece.cpp || cmake_object_order_depends_target_Draught
+  DEP_FILE = CMakeFiles/Draught.dir/src/piece.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
   OBJECT_DIR = CMakeFiles/Draught.dir
   OBJECT_FILE_DIR = CMakeFiles/Draught.dir/src
@@ -92,7 +104,7 @@ build CMakeFiles/Draught.dir/src/test.cpp.o: CXX_COMPILER__Draught_Debug /Users/
 #############################################
 # Link the executable Draught
 
-build Draught: CXX_EXECUTABLE_LINKER__Draught_Debug CMakeFiles/Draught.dir/src/main.cpp.o CMakeFiles/Draught.dir/src/test.cpp.o
+build Draught: CXX_EXECUTABLE_LINKER__Draught_Debug CMakeFiles/Draught.dir/src/main.cpp.o CMakeFiles/Draught.dir/src/board.cpp.o CMakeFiles/Draught.dir/src/position.cpp.o CMakeFiles/Draught.dir/src/piece.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/Draught.dir
   POST_BUILD = :
