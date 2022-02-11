@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include <vector>
-//#include "position.h"
 
 class Position;
 
@@ -21,10 +20,10 @@ namespace Draught
                 KING, PAWN
             };
         private:
-            const std::string pieceId;
-            Position* pos;
-            std::vector<Position> moves;
-            PieceType type;
+            const std::string d_pieceId;
+            Position* d_pos;
+            std::vector<Position*> d_moves;
+            PieceType d_type;
         };
 }
 

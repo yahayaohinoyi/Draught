@@ -12,9 +12,12 @@ namespace Draught
 {
     class Position
     {
+    public:
+        Position(std::string  row, std::string  col, Piece  p);
     private:
-        const std::string pos;
-        Piece p;
+        const std::string d_row;
+        const std::string d_col;
+        Piece d_p;
     };
 }
 

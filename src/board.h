@@ -14,10 +14,16 @@ namespace Draught
 {
     class Board
     {
+    public:
+        Board(const std::string&  id, unsigned int numSquares);
+        static bool isValidNumSquares(unsigned int numSquares);
+        static bool isPerfectSquare(unsigned int val);
+        void populateBoard(unsigned int numPieces, unsigned int numSquares);
+        static bool isDarkSquare(unsigned int count);
     private:
-        std::string id;
-        unsigned int numSquares;
-        std::map<Position, Piece> pos;
+        std::string d_id;
+        unsigned int d_numSquares;
+        std::map<const Position*, const Piece*> d_pos;
     };
 }
 
