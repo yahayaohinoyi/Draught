@@ -20,10 +20,12 @@ namespace Draught
         std::map<Position, Piece> d_positionToPiece;
         std::vector<std::string> d_moves;
     public:
-        Board(std::string d_id, unsigned int d_numSquares);
+        Board(std::string id, unsigned int numSquares);
+        void buildBoard();
         std::vector<std::string> moves();
         std::map<Position, Piece> positionToPiece();
         unsigned int numSquares();
+        bool isValidPosition(Position pos);
     };
 }
 

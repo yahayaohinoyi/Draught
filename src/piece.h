@@ -15,6 +15,11 @@ namespace Draught
     {
         KING, PAWN
     };
+
+    enum class PieceColor
+    {
+        BLACK, WHITE
+    };
     class Piece
     {
         private:

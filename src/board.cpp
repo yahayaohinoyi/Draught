@@ -8,7 +8,15 @@ namespace Draught
 {
     Board::Board(std::string id, unsigned int numSquares)
     : d_id(id), d_numSquares(numSquares)
-    {}
+    {
+        // d_positionToPiece = {};
+        // d_moves = {};
+    }
+
+    void Board::buildBoard()
+    {
+
+    }
 
     std::vector<std::string> Board::moves()
     {
@@ -23,5 +31,10 @@ namespace Draught
     unsigned int Board::numSquares()
     {
         return d_numSquares;
+    }
+
+    bool Board::isValidPosition(Position pos)
+    {
+        return true;
     }
 }
