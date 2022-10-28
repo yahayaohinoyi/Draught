@@ -7,24 +7,21 @@
 
 #include <iostream>
 #include <vector>
-//#include "position.h"
-
-class Position;
+#include "position.h"
 
 namespace Draught
 {
+    enum class PieceType
+    {
+        KING, PAWN
+    };
     class Piece
     {
         public:
-            enum class PieceType
-            {
-                KING, PAWN
-            };
         private:
-            const std::string pieceId;
-            Position* pos;
-            std::vector<Position> moves;
-            PieceType type;
+            const std::string d_pieceId;
+            Position d_pos;
+            PieceType d_type;
         };
 }
 

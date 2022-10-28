@@ -15,9 +15,10 @@ namespace Draught
     class Board
     {
     private:
-        std::string id;
-        unsigned int numSquares;
-        std::map<Position, Piece> pos;
+        const std::string id;
+        unsigned int d_numSquares;
+        std::map<Position, Piece> d_positionToPiece;
+        std::vector<std::string> d_moves;
     };
 }
 

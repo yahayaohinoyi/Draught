@@ -6,15 +6,14 @@
 #define DRAUGHT_POSITION_H
 
 #include <iostream>
-#include "piece.h"
 
 namespace Draught
 {
     class Position
     {
     private:
-        const std::string pos;
-        Piece p;
+        std::string d_x;
+        std::string d_y;
     };
 }
 
