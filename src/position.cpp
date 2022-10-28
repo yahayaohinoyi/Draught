@@ -3,3 +3,9 @@
 //
 
 #include "position.h"
+
+namespace Draught
+{
+    Position::Position(std::string x, std::string y)
+    :d_x(x), d_y(y){}
+}

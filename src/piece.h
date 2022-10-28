@@ -17,11 +17,15 @@ namespace Draught
     };
     class Piece
     {
-        public:
         private:
             const std::string d_pieceId;
             Position d_pos;
             PieceType d_type;
+        public:
+            Piece(std::string pieceId, Position pos, PieceType type);
+            Position position();
+            PieceType type();
+            std::string pieceId();
         };
 }
 

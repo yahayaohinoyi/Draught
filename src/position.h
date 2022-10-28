@@ -14,6 +14,8 @@ namespace Draught
     private:
         std::string d_x;
         std::string d_y;
+    public:
+        Position(std::string x, std::string y);
     };
 }
 

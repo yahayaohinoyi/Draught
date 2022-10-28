@@ -3,3 +3,25 @@
 //
 
 #include "piece.h"
+
+namespace Draught
+{
+    Piece::Piece(std::string pieceId, Position pos, PieceType type)
+    : d_pieceId(pieceId), d_pos(pos), d_type(type)
+    {}
+
+    Position Piece::position()
+    {
+        return d_pos;
+    }
+
+    PieceType Piece::type()
+    {
+        return d_type;
+    }
+
+    std::string Piece::pieceId()
+    {
+        return d_pieceId;
+    }
+}
