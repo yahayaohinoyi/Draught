@@ -15,8 +15,19 @@ namespace Draught
     public:
         std::string d_x;
         std::string d_y;
-    // public:
-    //     Position(std::string x, std::string y);
+        Position(std::string x, std::string y);
+    };
+}
+
+namespace std
+{
+    using namespace Draught;
+    template<> struct less<Position>
+    {
+        bool operator() (const Position& lhs, const Position& rhs) const
+        {
+            return lhs.d_x > rhs.d_x || lhs.d_y > rhs.d_y;
+        }
     };
 }
 

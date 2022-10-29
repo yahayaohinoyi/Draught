@@ -27,6 +27,8 @@ namespace Draught
         unsigned int numSquares();
         bool isValidPosition(Position pos);
     };
+
+   
 }
 
 #endif //DRAUGHT_BOARD_H
