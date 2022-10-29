@@ -1,3 +1,0 @@
-/Users/yahayaohinoyi/Documents/CODING-PROJECTS/Draught/build/CMakeFiles/Draught.dir
-/Users/yahayaohinoyi/Documents/CODING-PROJECTS/Draught/build/CMakeFiles/edit_cache.dir
-/Users/yahayaohinoyi/Documents/CODING-PROJECTS/Draught/build/CMakeFiles/rebuild_cache.dir
