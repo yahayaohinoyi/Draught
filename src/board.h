@@ -21,14 +21,13 @@ namespace Draught
         std::vector<std::string> d_moves;
     public:
         Board(std::string id, unsigned int numSquares);
-        void buildBoard();
+        void buildBoard(unsigned int numSquares);
         std::vector<std::string> moves();
         std::map<Position, Piece> positionToPiece();
         unsigned int numSquares();
         bool isValidPosition(Position pos);
+        stringstream visualize();
     };
-
-   
 }
 
 #endif //DRAUGHT_BOARD_H

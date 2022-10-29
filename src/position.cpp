@@ -6,6 +6,6 @@
 
 namespace Draught
 {
-    Position::Position(std::string x, std::string y)
+    Position::Position(unsigned int x, unsigned int y)
     : d_x(x), d_y(y){}
 }

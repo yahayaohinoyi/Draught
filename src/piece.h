@@ -26,8 +26,9 @@ namespace Draught
             const std::string d_pieceId;
             Position d_pos;
             PieceType d_type;
+            PieceColor d_color;
         public:
-            Piece(std::string pieceId, Position pos, PieceType type);
+            Piece(std::string pieceId, Position pos, PieceType type, PieceColor color);
             Position position();
             PieceType type();
             std::string pieceId();

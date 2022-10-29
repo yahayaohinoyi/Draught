@@ -6,8 +6,8 @@
 
 namespace Draught
 {
-    Piece::Piece(std::string pieceId, Position pos, PieceType type)
-    : d_pieceId(pieceId), d_pos(pos), d_type(type)
+    Piece::Piece(std::string pieceId, Position pos, PieceType type, PieceColor color)
+    : d_pieceId(pieceId), d_pos(pos), d_type(type), d_color(color)
     {}
 
     Position Piece::position()

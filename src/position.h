@@ -13,9 +13,9 @@ namespace Draught
     class Position
     {
     public:
-        std::string d_x;
-        std::string d_y;
-        Position(std::string x, std::string y);
+        unsigned int d_x;
+        unsigned int d_y;
+        Position(unsigned int x, unsigned int y);
     };
 }
 
